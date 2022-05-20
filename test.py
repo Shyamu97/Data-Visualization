@@ -1,1 +1,4 @@
-print("Starting Data Visualization")
+def func():
+    print("Starting Data Visualization")
+
+func()
