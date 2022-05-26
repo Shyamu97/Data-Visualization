@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-number = [1,2,3,4,5]
-number_cube = [1,8,27,64,125]
+number = range(1,5001)
+number_cube = [x**3 for x in number]
 
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
