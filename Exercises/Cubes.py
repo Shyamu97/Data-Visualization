@@ -6,7 +6,7 @@ number_cube = [x**3 for x in number]
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
 
-ax.plot(number, number_cube, linewidth=3)
+ax.scatter(number, number_cube,c=number_cube, cmap=plt.cm.Blues, linewidth=3)
 
 # Set chart title and label axex.
 
