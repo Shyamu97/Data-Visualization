@@ -18,4 +18,4 @@ ax.set_ylabel("Square of Value", fontsize=14)
 
 ax.tick_params(axis='both', which='major', labelsize=14)
 
-plt.show()
+plt.savefig('squares_plot.png')
