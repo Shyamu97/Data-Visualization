@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 
+# Importing RandomWalk() from random_walk.py
 from random_walk import RandomWalk
 
 # Make a random walk.
